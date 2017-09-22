@@ -235,7 +235,7 @@ class ForgotYourPasswordController
     }
 
     /**
-     * @URL("{$this->baseUrl}/reset")
+     * @URL("{$this->baseUrl}/reset/{token}")
      * @Get()
      *
      * @param string $token
